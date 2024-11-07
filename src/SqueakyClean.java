@@ -35,7 +35,6 @@ public class SqueakyClean {
                 .replace("7", "t");
     }
 
-    // Método auxiliar para remover caracteres que não são letras
     private static String removeNonLetterCharacters(String input) {
         StringBuilder sb = new StringBuilder();
         for (char c : input.toCharArray()) {
